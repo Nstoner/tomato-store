@@ -147,7 +147,7 @@ header {
 
 .home .swiper {
     margin-bottom: 20px;
-    height: 80vh;
+    height: 90vh;
 }
 
 .home .swiper-slide {
@@ -457,10 +457,53 @@ footer .credit span {
     
 }
 
+.home-container {
+    width: 100vw;
+}
 
 
 .home-container .show {
     display: none;
+}
+
+.home-container .profile {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.home-container .message {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.home-container .photos {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.home-container .setting {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.home-container .profile img {
+    width: 100%;
+}
+
+.home-container .message img {
+    width: 100%;
+}
+
+.home-container .photos img {
+    width: 100%;
+}
+
+.home-container .setting img {
+    width: 100%;
 }
 
 .home-container .home.active {
