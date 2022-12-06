@@ -1,6 +1,6 @@
 const list = document.querySelectorAll(".list");
 const homeId = document.getElementById("home");
-const profileId = document.getElementById("profile");
+const shopId = document.getElementById("shop");
 const messageId = document.getElementById("message");
 const photosId = document.getElementById("photos");
 const settingId = document.getElementById("setting");
@@ -23,7 +23,7 @@ function clickTagMenu () {
     })
     
     navListTag[1].addEventListener("click", () => {
-        profileId.classList.add("active");
+        shopId.classList.add("active");
     })
     navListTag[2].addEventListener("click", () => {
         messageId.classList.add("active");
@@ -51,7 +51,7 @@ function handleClick () {
     })
     
     list[1].addEventListener("click", () => {
-        profileId.classList.add("active");
+        shopId.classList.add("active");
     })
     list[2].addEventListener("click", () => {
         messageId.classList.add("active");
@@ -80,5 +80,26 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+  
 
+  var swiper = new Swiper(".productSwiper", {
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    centeredslides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+    },
+  });
 
