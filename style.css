@@ -36,12 +36,16 @@ li {
     
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 
 /* Navbar Start */
 
 header {
-    min-width: 100vw;
+    width: 100vw;
     background-color: #fff;
     box-shadow: var(--box-shadow);
     position: sticky;
