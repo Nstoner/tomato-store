@@ -84,7 +84,7 @@ var swiper = new Swiper(".mySwiper", {
 
   var swiper = new Swiper(".productSwiper", {
     loop: true,
-    spaceBetween: 20,
+    spaceBetween: 10,
     autoplay: {
       delay: 7500,
       disableOnInteraction: false,
