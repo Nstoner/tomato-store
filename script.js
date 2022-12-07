@@ -1,7 +1,7 @@
 const list = document.querySelectorAll(".list");
 const homeId = document.getElementById("home");
 const shopId = document.getElementById("shop");
-const messageId = document.getElementById("message");
+const aboutId = document.getElementById("about");
 const photosId = document.getElementById("photos");
 const settingId = document.getElementById("setting");
 const sliderTag = document.querySelector(".nav-indicator");
@@ -26,7 +26,7 @@ function clickTagMenu () {
         shopId.classList.add("active");
     })
     navListTag[2].addEventListener("click", () => {
-        messageId.classList.add("active");
+        aboutId.classList.add("active");
     })
     navListTag[3].addEventListener("click", () => {
         photosId.classList.add("active");
@@ -54,7 +54,7 @@ function handleClick () {
         shopId.classList.add("active");
     })
     list[2].addEventListener("click", () => {
-        messageId.classList.add("active");
+        aboutId.classList.add("active");
     })
     list[3].addEventListener("click", () => {
         photosId.classList.add("active");
